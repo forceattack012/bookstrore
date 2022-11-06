@@ -1,0 +1,18 @@
+POST http://localhost:8080/book
+Content-Type: application/json
+
+{
+    "name" : "Harry",
+    "author": "Rolling"
+}
+
+GET http://localhost:8080/book
+Content-Type: application/json
+
+
+GET http://localhost:8080/book/1
+Content-Type: application/json
+
+
+GET http://localhost:8080/ping
+Content-Type: application/json
